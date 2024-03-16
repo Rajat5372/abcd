@@ -87,11 +87,16 @@ h4{
     justify-content: center;
     padding: 2rem;
 }
-.sanya-videos2{
-    z-index: -1;
-    background: linear-gradient(0deg, rgba(0,7,7,1) 0%, rgba(249,249,248,1) 100%);
-}
 @media screen and (max-width: 1024px){
+    h4{
+        padding: 0rem;
+    }
+    .sanya-videos{
+        padding: 5rem;
+    }
+    .videos{
+        padding: 4rem 0rem 0rem 0rem;
+    }
     .display{
         display: flex;
         flex-direction: column;
@@ -100,9 +105,11 @@ h4{
         width: 100%;
     }
     .content{
+        padding: 5rem 0.5rem 1rem 0.5rem;
         width: 100%;
     }
     .cards{
+        padding: 1rem;
         grid-template-columns: repeat(2, 1fr);
     }
 }
